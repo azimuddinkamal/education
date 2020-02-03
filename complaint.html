@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head><title>Compaint page</title>
+      <style type=text/css>
+         .bold {font-weight: bold}
+      </style>
+   </head>
+  <body>
+   <h3>Online Complaint</h3>
+   <form method=post action=process.php>
+   <table>
+      <tr><td class="bold">Name:</td><td><input type=text name=name></td></tr>
+      <tr><td class="bold">Email:</td><td><input type=text name=email></td></tr>
+      <tr><td class="bold">Tel No:</td><td><input type=text name=tel></td></tr>
+      <tr><td class="bold" valign=top>Complaint:</td><td>
+      <textarea name=complaint wrap=soft cols=35 rows=10>
+         Write your complaint here...
+      </textarea>
+      </td></tr>
+     <tr><td></td><td><input type=submit value="Submit!">&nbsp;&nbsp;
+     <input type=reset value=Clear></td></tr>
+   </table>
+   </form>
+   </body>
+</html>
